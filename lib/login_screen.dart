@@ -18,6 +18,11 @@ class LoginScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Center(
+                  child: Image(
+                    image: AssetImage('assets/images/gdg_medea.jpg'),
+                  ),
+                ),
                 Text(
                     'Login',
                   style: TextStyle(
